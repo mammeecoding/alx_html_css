@@ -1,0 +1,346 @@
+body {
+  background-image: url(Object.png);
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+}
+
+/* header section */
+li {
+  display: inline;
+  position: relative;
+  top: 2px;
+  left: 80%;
+  padding: 5px;
+  word-spacing: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  padding: 2px;
+}
+
+nav img {
+  position: relative;
+  top: 50px;
+  left: 10%;
+}
+
+/* section 1 with the class background image */
+.first-section {
+  text-align: center;
+  margin: 20px;
+  padding-top: 20px;
+  color: #fff;
+}
+
+h1 {
+  font-size: 120px;
+}
+
+span {
+  padding: 20px;
+  margin-right: 20px;
+}
+
+button {
+  display: block;
+  margin-top: 60px;
+  margin-left: 42.5%;
+  color: #fff;
+  background-color: #C271FF;
+  padding: 20px;
+  border: #C271FF solid 0.2px;
+  border-radius: 25px;
+  box-shadow: black 5px 5px 5px;
+}
+
+.first-section h2 {
+  position: absolute;
+  top: 650px;
+  left: 550px;
+}
+
+.purple {
+  color: #c271ff;
+}
+
+.pros {
+  margin: 20px;
+}
+
+.phillip {
+  position: absolute;
+  top: 750px;
+  left: 40px;
+}
+
+.nannie {
+  position: absolute;
+  top: 750px;
+  left: 400px;
+}
+
+.bruce_a {
+  border-radius: 50%;
+}
+
+.bruce {
+  position: absolute;
+  top: 750px;
+  left: 650px;
+}
+
+.henry {
+  position: absolute;
+  top: 750px;
+  left: 1000px;
+}
+/* second-section */
+.second-section{
+  position: absolute;
+  left: 0;
+  top: 595px;
+  width:100% ;
+  background-color: #C271FF;
+  margin-top: 395px;
+  color: #fff;
+}
+.name{
+  position: relative;
+  top: 50px;
+  left: 200px;
+}
+.text{
+  position: relative;
+  left: 400px;
+  top: -80px;
+}
+.btext{
+  position: relative;
+  left: -50px;
+}
+/* third section */
+.third-section{
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  top: 202%;
+  left: 0;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+}
+.third-section h2 {
+  justify-content: center;
+  position: relative;
+  left: 40%;
+}
+.diagonal{
+  position: absolute;
+  top: 100px;
+  left: 30px;
+}
+.sad{
+  position: absolute;
+  top: 100px;
+  left: 350px;
+}
+.natural{
+  position: absolute;
+  top: 100px;
+  left: 700px;
+}
+.happy{
+  position: absolute;
+  top: 100px;
+  left: 1000px;
+}
+/* first video */
+.play_a{
+  position: absolute;
+  top: 40px;
+  left: 35%;
+}
+.a img{
+  width: 40px;
+}
+.a h4{
+  position: absolute;
+  top: 78%;
+  left: 20%;
+  color: #C271FF;
+}
+.min_a{
+  color: #C271FF;
+  position: absolute;
+  top: 295px;
+  left: 200px;
+}
+/* second video */
+.play_b{
+position: absolute;
+top: 40px;
+left:35%;
+}
+.b img{
+  width: 40px;
+}
+
+.b h4{
+ position: absolute;
+ top: 78%;
+ left: 20%; 
+ color: #C271FF;
+}
+.min_b{
+  color: #C271FF;
+  position: absolute;
+  top: 295px;
+  left: 80%;
+}
+/* third video */
+
+.play_c{
+position: absolute;
+top: 40px;
+left: 35%;
+}
+.c img{
+  width: 40px;
+}
+
+.c h4{
+ position: absolute;
+ top: 78%;
+ left: 20%; 
+ color: #C271FF;
+}
+.min_c{
+  color: #C271FF;
+  position: absolute;
+  top: 295px;
+  left: 80%;
+}
+/* fourth video */
+.play_d{
+position: absolute;
+top: 40px;
+left: 22%;
+}
+.d img{
+  width: 40px;
+}
+
+.d h4{
+ position: absolute;
+ top: 78%;
+ left: 20%; 
+ color: #C271FF;
+}
+.min_d{
+  color: #C271FF;
+  position: absolute;
+  top: 295px;
+  left: 80%;
+}
+.third-section h3 + p{
+  color: #071629;
+  opacity: 51.62%;
+}
+/* fourth section */
+.fourth-section{
+  background-color: #071629;
+  position: absolute;
+  top:1750px;
+  margin-bottom: 0;
+  width: 100%;
+  height: 400px;
+  left: 0;
+  color: #fff;
+  display: inline;
+  text-align: center;
+}
+.fourth-section h2{
+  position: absolute;
+  left: 40%;
+}
+.first{
+  position: absolute;
+  left: 13%;
+  top: 25%;
+}
+.second{
+  position: absolute;
+  left: 33%;
+  top: 25%;
+}
+.third{
+  position: absolute;
+  left: 53%;
+  top: 25%;
+}
+.fourth{
+  position: absolute;
+  left: 73%;
+  top: 25%;
+}
+.fourth-section button{
+  position: absolute;
+  top: 62%;
+}
+/* fifth section */
+.fifth-section{
+  background-color: #fff;
+  position: absolute;
+  top: 2150px;
+  left: 0;
+  width: 100%;
+  height: 550px;
+}
+.fifth-section h2{
+  position: absolute;
+  left: 45%;
+}
+.ffirst{
+  position: absolute;
+  top: 60px;
+  left: 10%;
+  color: #071629;
+}
+.fsecond{
+  position: absolute;
+  top: 60px;
+  left: 60%;
+  color: #071629;
+}
+.p{
+  opacity: 50.16%;
+}
+/* footer */
+footer{
+  background-color: #071629;
+  position: absolute;
+  top: 2700px;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  padding-top: 100px;
+}
+footer img{
+  position: absolute;
+  left: 10%;
+}
+ footer i{
+   color: #fff; 
+   position: relative;
+   left: 400px;
+   padding-left: 25px;
+} 
+footer p{
+  color: #fff;
+  position: absolute;
+  bottom: 5%;
+  left: 45%;
+}
