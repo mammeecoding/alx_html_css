@@ -1,0 +1,636 @@
+header {
+  background-image: url(images/headphones_hero_1.jpg);
+  text-align: center;
+  height: 120vh;
+  color: #fff;
+  position: relative;
+}
+
+.logo {
+  width: 200px;
+  display: inline;
+  position: absolute;
+  left: 20px;
+  top: 40px;
+}
+
+.drop_down {
+  display: none;
+  position: absolute;
+  right: 2rem;
+  top: 60px;
+  height: 0;
+  width: 300px;
+  overflow: hidden;
+  transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.toggle_btn {
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  display: none;
+}
+
+.navigation a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0 20px;
+  position: relative;
+  top: 50px;
+  left: 450px;
+  justify-content: space-between;
+}
+
+.landing {
+  position: absolute;
+  top: 300px;
+  left: 300px;
+  font-size: 28px;
+}
+
+.landing button {
+  padding: 15px 20px;
+  color: #fff;
+  background-color: #FF6565;
+  border: solid #FF6565 1px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.landing p {
+  font-size: 20px;
+}
+
+/* hover */
+a:hover {
+  color: #FF6565;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.landing button:active {
+  opacity: 0.9;
+}
+
+/* what-section */
+#what {
+  text-align: center;
+  height: 80vh;
+  position: relative;
+}
+
+#what h1 {
+  font-size: 28px;
+  padding: 100px 0px 20px;
+  font-weight: bold;
+}
+
+#what img {
+  width: 100px;
+}
+
+.what {
+  position: relative;
+}
+
+.what h3 {
+  font-style: bold;
+}
+
+#what .what_c {
+  margin-bottom: 50px;
+}
+
+.what .what_a {
+  position: absolute;
+  left: 180px;
+}
+
+.what .what_b {
+  position: absolute;
+  left: 450px;
+}
+
+.what .what_d {
+  position: absolute;
+  left: 720px;
+}
+
+.what .what_e {
+  position: absolute;
+  left: 1000px;
+}
+
+/* result section */
+#result {
+  text-align: center;
+  height: 80vh;
+  position: relative;
+  background-image: url(images/headphones_hero_2.jpg);
+  color: #fff;
+}
+
+#result h1 {
+  font-size: 28px;
+  padding: 100px 0px 20px;
+  font-weight: bold;
+}
+
+#result img {
+  width: 150px;
+}
+
+.result_img .a {
+  position: absolute;
+  left: 120px;
+  top: 300px;
+}
+
+.a h2 {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  font-size: 40px;
+  font-style: bold;
+}
+
+.a p {
+  position: absolute;
+  top: 80px;
+  left: 15px;
+  font-size: 15px;
+}
+
+.result_img .b {
+  position: absolute;
+  left: 420px;
+  top: 300px;
+}
+
+.b h2 {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  font-size: 40px;
+  font-style: bold;
+}
+
+.b p {
+  position: absolute;
+  top: 80px;
+  left: 15px;
+  font-size: 15px;
+}
+
+.result_img .c {
+  position: absolute;
+  left: 750px;
+  top: 300px;
+}
+
+.c h2 {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  font-size: 40px;
+  font-style: bold;
+}
+
+.c p {
+  position: absolute;
+  top: 80px;
+  left: 15px;
+  font-size: 15px;
+}
+
+.result_img .d {
+  position: absolute;
+  left: 1050px;
+  top: 300px;
+}
+
+.d h2 {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  font-size: 40px;
+  font-style: bold;
+}
+
+.d p {
+  position: absolute;
+  top: 80px;
+  left: 15px;
+  font-size: 15px;
+}
+
+/* third-section */
+#contact {
+  text-align: center;
+  height: 80vh;
+  display: block;
+  position: relative;
+}
+
+#contact h1 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 50px 0 5px;
+  margin: 80px 0 40px;
+}
+
+#contact input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  width: 300px;
+  padding: 30px 0 0px;
+}
+
+label {
+  display: block;
+  position: absolute;
+  left: 520px;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#contact button {
+  padding: 10px 15px;
+  border-radius: 15px;
+  border: solid 1px #FF6565;
+  color: #fff;
+  background-color: #FF6565;
+  margin: 30px 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* footer */
+footer {
+  height: 30vh;
+  background-color: #071629;
+  position: relative;
+}
+
+footer img {
+  position: absolute;
+  left: 10%;
+  top: 30%;
+}
+
+footer i {
+  color: #fff;
+  position: relative;
+  left: 1000px;
+  padding-left: 30px;
+  top: 80px;
+  width: 50px;
+}
+
+footer p {
+  color: #fff;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  font-size: 10px;
+}
+
+
+
+
+/* responsive */
+@media (max-width:768px) {
+  header {
+    height: 75vh;
+  }
+
+  .navigation a {
+    left: 170px;
+  }
+
+  .landing {
+    left: 60px;
+    justify-content: space-between;
+  }
+
+  /* first section */
+  .what .what_d {
+    left: 180px;
+    top: 220px;
+  }
+
+  .what .what_e {
+    top: 220px;
+    left: 450px;
+  }
+
+  /* result section */
+  #result {
+    height: 75vh;
+  }
+
+  #result h1 {
+    font-size: 40px;
+  }
+
+  .result_img .a {
+    left: 160px;
+  }
+
+  .result_img .b {
+    left: 460px;
+  }
+
+  .result_img .c {
+    left: 160px;
+    top: 550px;
+  }
+
+  .result_img .d {
+    left: 460px;
+    top: 550px;
+  }
+
+  /* third section */
+  #contact {
+    height: 55vh;
+  }
+
+  label {
+    left: 230px;
+  }
+  /* footer */
+  footer{
+    height: 20vh;
+  }
+  footer img{
+    width: 200px;
+    top: 80px;
+  }
+  footer i{
+    left: 520px;
+    top:95px;
+  }
+}
+
+@media(max-width:480px) {
+  header {
+    height: 70vh;
+    width: 85vh;
+  }
+
+  .logo {
+    left: 140px;
+    width: 250px;
+  }
+
+  .navigation a {
+    display: none;
+  }
+
+  .drop_down {
+    display: block;
+    left: 2rem;
+    width: unset;
+  }
+
+  .toggle_btn {
+    display: block;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    font-size: 35px;
+  }
+
+  .landing {
+    left: 10px;
+  }
+
+  .landing h1 {
+    font-size: 50px;
+    position: relative;
+    left: 45px;
+  }
+
+  .landing p {
+    font-size: 25px;
+    position: relative;
+    left: 45px;
+  }
+
+  .landing button {
+    position: relative;
+    left: 45px;
+  }
+
+  /* first section */
+  #what {
+    align-items: center;
+    position: relative;
+    left: 150px;
+  }
+
+  #what h1 {
+    position: absolute;
+    left: 180px;
+    font-size: 50px;
+  }
+
+  #what p {
+    position: absolute;
+    top: 160px;
+    left: 190px;
+    font-size: 30px;
+  }
+
+  .what {
+    position: absolute;
+    top: 400px;
+  }
+
+  .what .what_a {
+    top: 400px;
+    left: 110px;
+  }
+
+  .what_a img,
+  .what_a h3 {
+    position: relative;
+    left: 185px;
+  }
+
+  .what .what_b {
+    top: 790px;
+    left: 110px;
+  }
+
+  .what_b img,
+  .what_b h3 {
+    position: relative;
+    left: 185px;
+  }
+
+  .what .what_d {
+    top: 1170px;
+    left: 110px;
+  }
+
+  .what_d img,
+  .what_d h3 {
+    position: relative;
+    left: 185px;
+  }
+
+  .what .what_e {
+    top: 1550px;
+    left: 110px;
+  }
+
+  .what_e img,
+  .what_e h3 {
+    position: relative;
+    left: 185px;
+  }
+
+  /* result section */
+  #result {
+    top: 1500px;
+    width: 85vh;
+    height: 71vh;
+  }
+
+  #result h1 {
+    position: absolute;
+    top: -80px;
+    left: 180px;
+  }
+
+  #result h1+p {
+    position: absolute;
+    top: 100px;
+    left: 160px;
+  }
+
+  #result img {
+    width: 100px;
+  }
+
+  .result_img .a {
+    left: 400px;
+    top: 200px;
+    height: 10px;
+  }
+
+  .a h2 {
+    position: absolute;
+    top: 18px;
+    left: 12px;
+    font-size: 30px;
+  }
+
+  .a p {
+    position: absolute;
+    left: 4px;
+    top: 52px;
+  }
+
+  .result_img .b {
+    left: 400px;
+    top: 350px;
+  }
+
+  .b h2 {
+    position: absolute;
+    top: 18px;
+    left: 12px;
+    font-size: 30px;
+  }
+
+  .b p {
+    position: absolute;
+    left: 4px;
+    top: 52px;
+  }
+
+  .result_img .c {
+    left: 400px;
+    top: 500px;
+  }
+
+  .c h2 {
+    position: absolute;
+    top: 18px;
+    left: 12px;
+    font-size: 30px;
+  }
+
+  .c p {
+    position: absolute;
+    left: 4px;
+    top: 52px;
+  }
+
+  .result_img .d {
+    left: 400px;
+    top: 650px;
+  }
+
+  .d h2 {
+    position: absolute;
+    top: 18px;
+    left: 12px;
+    font-size: 30px;
+  }
+
+  .d p {
+    position: absolute;
+    left: 4px;
+    top: 52px;
+  }
+
+  /* third section */
+  #contact {
+    top: 1500px;
+    width: 800px;
+    font-size: 200;
+  }
+
+  #contact h1 {
+    font-size: 100px;
+    position: absolute;
+    left: 250px;
+  }
+
+  #contact .input {
+    font-size: 30px;
+    position: absolute;
+    top: 320px;
+    left: 320px;
+  }
+
+  #contact label {
+    left: 10px;
+  }
+  /* footer */
+  footer{
+    top: 1600px;
+    width: 87vh;
+  }
+  footer img{
+    top: 10px;
+    left: 400px;
+  }
+  footer i{
+    left: 380px;
+    top: 110px;
+  }
+  footer p{
+    position: absolute;
+    left: 470px;
+  }
+}
